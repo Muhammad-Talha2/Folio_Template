@@ -1,0 +1,749 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.Hero-section {
+    height: 100vh;
+    background-image: url(./images/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.bar {
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+
+}
+
+.un-order {
+    list-style: none;
+}
+
+.logo {
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+
+.list {
+    color: rgb(203, 194, 192);
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.2s all linear;
+    cursor: pointer;
+}
+
+.list:hover {
+    color: white;
+}
+
+.icons {
+    color: white;
+    font-size: 32px;
+}
+
+.Portfolio-name {
+    width: 350px;
+    height: auto;
+    position: absolute;
+    left: 20%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    /* background-color: darkcyan; */
+    /* border: 3px solid red; */
+    white-space: nowrap;
+}
+
+.Name h3 {
+    width: 100%;
+    height: auto;
+    /* border: 2px solid firebrick; */
+    font-size: 70px;
+    font-weight: 500;
+    color: white;
+}
+
+.Animate-box {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    /* border: 3px solid firebrick; */
+
+}
+
+.Animate-box::before {
+    position: absolute;
+    width: 250px;
+    content: "I'm developer";
+    font-size: 37px;
+    color: white;
+    font-weight: bold;
+    border-right: 2px solid burlywood;
+    animation: anim 9s linear infinite;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@keyframes anim {
+    0% {
+        content: "I'm developer";
+        width: 90px;
+    }
+
+    10% {
+        content: "I'm developer";
+        width: 250px;
+    }
+
+    23% {
+        content: "I'm developer";
+        width: 250px;
+    }
+
+    33% {
+        content: "I'm developer";
+        width: 90px;
+    }
+
+    34% {
+        content: "I'm Designer";
+        width: 90px;
+    }
+
+    44% {
+        content: "I'm Designer";
+        width: 250px;
+    }
+
+    57% {
+        content: "I'm Designer";
+        width: 250px;
+    }
+
+    66% {
+        content: "I'm Designer";
+        width: 90px;
+    }
+
+    67% {
+        content: "I'm Frellancer";
+        width: 90px;
+    }
+
+    77% {
+        content: "I'm Frellancer";
+        width: 250px;
+    }
+
+    87% {
+        content: "I'm Frellancer";
+        width: 250px;
+    }
+
+    100% {
+        content: "I'm Frellancer";
+        width: 90px;
+    }
+}
+
+.Icons-box {
+    width: 80%;
+    height: auto;
+    /* border: 2px solid green; */
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(179, 174, 164);
+    padding: 5px;
+
+}
+
+.Icons-box i {
+    cursor: pointer;
+}
+
+.Paper {
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    opacity: 0.3;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+.Scnd-section {
+    height: auto;
+    background-color: #ffff;
+    padding: 40px;
+    overflow: hidden;
+
+}
+
+
+.Child-Box {
+    height: 100%;
+    height: auto;
+    /* background-color: darkcyan; */
+}
+
+.Image-box {
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    border: 12px solid rgb(184, 160, 126);
+
+    position: relative;
+
+
+}
+
+.iMage {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 10%;
+    top: -10%;
+
+}
+
+.iMage img {
+    width: 100%;
+    height: 100%;
+}
+
+.Text-box {
+    width: 800px;
+    height: auto;
+    text-align: start;
+    margin-top: 20px;
+}
+
+.Third-section {
+    height: auto;
+    /* background-color: darkgoldenrod; */
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.Card-box {
+    height: auto;
+    margin: auto;
+}
+
+.First-box {
+    width: 320px;
+    height: max-content;
+    /* border: 2px solid darkcyan; */
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+
+.icn-span {
+    color: #D1C2AC;
+    font-size: 32px;
+    transition: 0.3S AL linear;
+}
+
+
+.First-box:hover .icn-span {
+    color: burlywood;
+}
+
+.Slide-section {
+    height: 100vh;
+    background-color: rgb(243, 241, 240);
+    position: relative;
+    padding-top: 10px;
+}
+
+.Circle-box {
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Circle-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-image: url(./images/testimonials-1.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+}
+
+/* ............................................................ */
+.Product-Secion {
+    height: auto;
+    padding-bottom: 40px;
+}
+
+.op {
+    list-style: none;
+    color: rgb(137, 137, 137);
+    font-size: 22px;
+    font-weight: 500;
+    margin: auto;
+}
+
+.list1 {
+    color: rgb(184, 160, 126);
+    cursor: pointer;
+    cursor: pointer;
+
+}
+
+.list2 {
+    cursor: pointer;
+    transition: 0.3s all linear;
+}
+
+.list2:hover {
+
+    color: rgb(184, 160, 126);
+}
+
+.Products {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.First-product {
+    width: 400px;
+    height: 300px;
+    background-color: rebeccapurple;
+    border-radius: 12px;
+    position: relative;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.Frst-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+.Frst-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    transition: 0.3s all linear;
+}
+
+.First-product:hover .Frst-img img {
+    transform: scale(1.1);
+}
+
+.Black-pap {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.5;
+    border-radius: 12px;
+    display: none;
+    transition: 0.3s all linear;
+
+}
+
+.First-product:hover .Black-pap {
+    display: block;
+}
+
+.ZOOM-IN {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    position: relative;
+
+}
+
+.zoom-icn {
+    width: 30%;
+    height: max-content;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 1;
+}
+
+.zoom-icn i {
+    font-size: 32px;
+    color: white;
+
+}
+
+/* ..................................................... */
+
+.Pricing-Section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: auto;
+
+}
+
+.Pricing-Cards {
+    width: 85%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.Frst-PriceCard {
+    width: 430px;
+    height: auto;
+    padding: 12px;
+    border-radius: 12px;
+    margin-top: 10px;
+    background-color: rgb(252, 251, 250);
+    /* box-shadow: 2px 2px 15px rgb(158, 152, 152); */
+}
+
+.Frst-PriceCard1 {
+    width: 430px;
+    height: auto;
+    transform: scale(1);
+    padding: 12px;
+    border-radius: 12px;
+    background-color: rgb(252, 251, 250);
+    /* box-shadow: 5px 5px 14px rgb(158, 152, 152); */
+
+    margin-top: 10px;
+}
+
+.btns {
+    height: 50px;
+    border: 1px solid rgb(137, 137, 137);
+    background-color: transparent;
+    border-radius: 12px;
+    color: rgb(146, 146, 146);
+    cursor: pointer;
+    transition: 0.3s all linear;
+}
+
+.btns:hover {
+    background-color: rgb(184, 160, 126);
+    border: none;
+    color: white;
+}
+
+.dlr {
+    color: rgb(184, 160, 126);
+
+}
+
+.Uol {
+    width: 80%;
+    margin: auto;
+}
+
+.Uol li {
+    font-size: 20px;
+    margin-top: 5px;
+    color: rgb(171, 171, 171);
+    list-style: circle;
+}
+
+.li {
+    text-decoration: line-through;
+    font-size: 20px;
+    color: gray;
+}
+
+/* ............................................... */
+.contact-section {
+    height: auto;
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+}
+
+.Contact-list {
+    height: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 12px;
+    box-shadow: 5px 5px 14px rgb(158, 152, 152);
+}
+
+.map-icn {
+    width: 60px;
+    height: 60px;
+    border: 2px solid rgb(184, 160, 126);
+    border-radius: 50%;
+    font-size: 25px;
+    color: rgb(184, 160, 126);
+    transition: 0.3s all linear;
+}
+
+.Adress {
+    margin-top: 10px;
+}
+
+.Adress:hover .map-icn {
+    color: white;
+    border: none;
+    background-color: rgb(184, 160, 126);
+}
+
+.input-prnt {
+    height: auto;
+    box-shadow: 5px 5px 14px rgb(158, 152, 152);
+
+}
+
+.input {
+    height: 50px;
+    border: 1px solid gray;
+}
+
+.Text-area {
+    height: 200px;
+
+}
+
+.text-arae {
+    height: 100%;
+}
+
+.Send {
+    width: 180px;
+    height: 50px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(184, 160, 126);
+
+}
+
+.foot {
+    background-color: rgb(243, 241, 240);
+
+
+}
+
+.iconss i {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(184, 160, 126);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+/* .............................................. */
+
+
+@media screen and (max-width: 1112px) {
+    .Image-box {
+        width: 50%;
+        height: 400px;
+    }
+
+    .Pricing-Cards {
+        width: 100%;
+
+    }
+
+
+}
+
+@media screen and (max-width: 997px) {
+    .Products {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 894px) {
+    .Portfolio-name {
+        width: 270px;
+    }
+
+    .Name h3 {
+        width: 100%;
+        height: auto;
+        font-size: 50px;
+        font-weight: 400;
+    }
+
+    .Text-box {
+        width: 100%;
+        height: auto;
+    }
+
+    .Scnd-section {
+        padding: 14px;
+    }
+
+    .Child-Box {
+        width: 100%;
+    }
+
+    .Frst-PriceCard {
+        width: 100%;
+
+    }
+
+    .Frst-PriceCard1 {
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 794px) {
+    .First-product {
+        margin: auto;
+        margin-top: 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 734px) {
+    .First-box {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+
+
+
+@media screen and (max-width: 684px) {
+    .Portfolio-name {
+        width: 300px;
+        position: absolute;
+        left: 30%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .Name h3 {
+        width: 100%;
+        height: auto;
+        font-size: 50px;
+        font-weight: 400;
+    }
+
+    .map-icn {
+        width: 40px;
+        height: 40px;
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width : 518px) {
+    .Portfolio-name {
+        width: 300px;
+        position: absolute;
+        left: 40%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .Circle-img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-image: url(./images/testimonials-1.jpg);
+        background-size: cover;
+        background-position: center;
+        margin: auto;
+    }
+
+    .Uol {
+        width: 90%;
+    }
+    .Image-box {
+        width: 100%;
+        height: 400px;
+    }
+
+
+
+
+}
+
+@media screen and (max-width : 425px) {
+
+
+    .First-box {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width : 390px) {
+    .Portfolio-name {
+        width: 260px;
+        position: absolute;
+        left: 45%;
+    }
+
+    .Image-box {
+        width: 100%;
+        height: 300px;
+    }
+
+    .op {
+        list-style: none;
+        color: rgb(137, 137, 137);
+        font-size: 19px;
+        font-weight: 400;
+        margin: auto;
+    }
+
+    .Uol {
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width : 330px) {
+    .op {
+        list-style: none;
+        color: rgb(137, 137, 137);
+        font-size: 16px;
+        font-weight: 400;
+        margin: auto;
+    }
+
+}
